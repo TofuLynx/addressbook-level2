@@ -9,10 +9,7 @@ import java.nio.charset.Charset;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.Iterator;
-import java.util.List;
+import java.util.*;
 
 import seedu.addressbook.data.AddressBook;
 import seedu.addressbook.data.exception.IllegalValueException;
@@ -23,6 +20,7 @@ import seedu.addressbook.data.person.Person;
 import seedu.addressbook.data.person.Phone;
 import seedu.addressbook.data.person.ReadOnlyPerson;
 import seedu.addressbook.data.person.UniquePersonList.DuplicatePersonException;
+import seedu.addressbook.data.tag.Tag;
 
 /**
  * Utility methods for testing.
@@ -136,5 +134,24 @@ public class TestUtil {
      */
     public static void assertFileDoesNotExist(String filePath) {
         assertTrue(Files.notExists(Paths.get(filePath)));
+    }
+
+    /***
+     * @author António Eloi
+     * @date 13 of May 2020
+     * @param phonePrivate Defines privacy of the phone contact
+     * @param emailPrivate Defines privacy of email
+     * @param addressPrivate Defines privacy of address
+     * @param tags Defines the tags that person will have
+     * @return Returns the created person with the above specification
+     */
+    public static Person generateTestPersonByAttributesPrivacy(boolean phonePrivate, boolean emailPrivate, boolean addressPrivate, Set<Tag> tags) {
+        try {
+            return new Person(new Name(Name.EXAMPLE), new Phone(Phone.EXAMPLE, phonePrivate),
+                    new Email(Email.EXAMPLE, emailPrivate), new Address(Address.EXAMPLE, addressPrivate), tags!=null ? tags : Collections.emptySet());
+        } catch (IllegalValueException e) {
+            fail("test person data should be valid by definition");
+            return null;
+        }
     }
 }
