@@ -1,0 +1,122 @@
+##########################################################
+####             PREAPARE VIEW - FUNCTION 5           ####
+##########################################################
+
+##########################################################
+# test case 1 - view 1
+##########################################################
+
+clear
+add Adam Brown p/111111 e/adam@gmail.com a/111, alpha street
+view 1
+
+##########################################################
+# test case 2 - view 2
+##########################################################
+
+clear
+add Adam Brown p/111111 e/adam@gmail.com a/111, alpha street
+add Betsy Choo pp/222222 pe/benchoo@nus.edu.sg pa/222, beta street t/secretive
+add Charlie Dickson pp/333333 e/charlie.d@nus.edu.sg a/333, gamma street t/friends t/school
+add Dickson Ee p/444444 pe/dickson@nus.edu.sg a/444, delta street t/friends
+view 2
+
+##########################################################
+# test case 3 - view N-1
+##########################################################
+
+clear
+add Adam Brown p/111111 e/adam@gmail.com a/111, alpha street
+add Betsy Choo pp/222222 pe/benchoo@nus.edu.sg pa/222, beta street t/secretive
+add Charlie Dickson pp/333333 e/charlie.d@nus.edu.sg a/333, gamma street t/friends t/school
+view 3
+
+##########################################################
+# test case 4 - view N
+##########################################################
+
+clear
+add Adam Brown p/111111 e/adam@gmail.com a/111, alpha street
+add Betsy Choo pp/222222 pe/benchoo@nus.edu.sg pa/222, beta street t/secretive
+add Charlie Dickson pp/333333 e/charlie.d@nus.edu.sg a/333, gamma street t/friends t/school
+add Dickson Ee p/444444 pe/dickson@nus.edu.sg a/444, delta street t/friends
+view 4
+
+##########################################################
+# test case 5 - view -N
+##########################################################
+
+clear
+add Adam Brown p/111111 e/adam@gmail.com a/111, alpha street
+add Betsy Choo pp/222222 pe/benchoo@nus.edu.sg pa/222, beta street t/secretive
+add Charlie Dickson pp/333333 e/charlie.d@nus.edu.sg a/333, gamma street t/friends t/school
+add Dickson Ee p/444444 pe/dickson@nus.edu.sg a/444, delta street t/friends
+view -4
+
+##########################################################
+# test case 6 - view -1
+##########################################################
+
+clear
+add Adam Brown p/111111 e/adam@gmail.com a/111, alpha street
+add Betsy Choo pp/222222 pe/benchoo@nus.edu.sg pa/222, beta street t/secretive
+add Charlie Dickson pp/333333 e/charlie.d@nus.edu.sg a/333, gamma street t/friends t/school
+add Dickson Ee p/444444 pe/dickson@nus.edu.sg a/444, delta street t/friends
+view -1
+
+##########################################################
+# test case 7 - view 0
+##########################################################
+
+clear
+add Adam Brown p/111111 e/adam@gmail.com a/111, alpha street
+add Betsy Choo pp/222222 pe/benchoo@nus.edu.sg pa/222, beta street t/secretive
+add Charlie Dickson pp/333333 e/charlie.d@nus.edu.sg a/333, gamma street t/friends t/school
+add Dickson Ee p/444444 pe/dickson@nus.edu.sg a/444, delta street t/friends
+view 0
+
+##########################################################
+# test case 8- view N+1
+##########################################################
+
+clear
+add Adam Brown p/111111 e/adam@gmail.com a/111, alpha street
+add Betsy Choo pp/222222 pe/benchoo@nus.edu.sg pa/222, beta street t/secretive
+add Charlie Dickson pp/333333 e/charlie.d@nus.edu.sg a/333, gamma street t/friends t/school
+add Dickson Ee p/444444 pe/dickson@nus.edu.sg a/444, delta street t/friends
+view 5
+
+##########################################################
+# test case 9 - empty string
+##########################################################
+
+clear
+add Adam Brown p/111111 e/adam@gmail.com a/111, alpha street
+add Betsy Choo pp/222222 pe/benchoo@nus.edu.sg pa/222, beta street t/secretive
+add Charlie Dickson pp/333333 e/charlie.d@nus.edu.sg a/333, gamma street t/friends t/school
+add Dickson Ee p/444444 pe/dickson@nus.edu.sg a/444, delta street t/friends
+view
+
+##########################################################
+# test case 10 - 1 2 3
+##########################################################
+
+clear
+add Adam Brown p/111111 e/adam@gmail.com a/111, alpha street
+add Betsy Choo pp/222222 pe/benchoo@nus.edu.sg pa/222, beta street t/secretive
+add Charlie Dickson pp/333333 e/charlie.d@nus.edu.sg a/333, gamma street t/friends t/school
+add Dickson Ee p/444444 pe/dickson@nus.edu.sg a/444, delta street t/friends
+view 1 2 3
+
+##########################################################
+# test case 11 - 1-
+##########################################################
+
+clear
+add Adam Brown p/111111 e/adam@gmail.com a/111, alpha street
+add Betsy Choo pp/222222 pe/benchoo@nus.edu.sg pa/222, beta street t/secretive
+add Charlie Dickson pp/333333 e/charlie.d@nus.edu.sg a/333, gamma street t/friends t/school
+add Dickson Ee p/444444 pe/dickson@nus.edu.sg a/444, delta street t/friends
+view 1-
+
+exit
