@@ -1,0 +1,27 @@
+|| ===================================================
+|| ===================================================
+|| Welcome to your Address Book!
+|| AddressBook Level 2 - Version 1.0
+|| Launch command format: java seedu.addressbook.Main [STORAGE_FILE_PATH]
+|| Using storage file : addressbook.txt
+|| ===================================================
+|| Enter command: || [Command entered:clear]
+|| Address book has been cleared!
+|| ===================================================
+|| Enter command: || [Command entered:add Adam Brown p/111111 e/adam@gmail.com a/111, alpha street]
+|| New person added: Adam Brown Phone: 111111 Email: adam@gmail.com Address: 111, alpha street Tags: 
+|| ===================================================
+|| Enter command: || [Command entered:list]
+|| 	1. Adam Brown Phone: 111111 Email: adam@gmail.com Address: 111, alpha street Tags: 
+|| 
+|| 1 persons listed!
+|| ===================================================
+|| Enter command: || [Command entered:view 1]
+|| Viewing person: Adam Brown Phone: 111111 Email: adam@gmail.com Address: 111, alpha street Tags: 
+|| ===================================================
+|| Enter command: || [Command entered:exit]
+|| Exiting Address Book as requested ...
+|| ===================================================
+|| Good bye!
+|| ===================================================
+|| ===================================================

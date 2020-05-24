@@ -1,0 +1,9 @@
+31,32c31,35
+< || Enter command: || [Command entered:view 1 2 3]
+< || The person index provided is invalid
+---
+> | Enter command: || [Command entered:view 1 2 3]
+> || Invalid command format!
+> || view: Views the non-private details of the person identified by the index number in the last shown person listing.
+> || Parameters: INDEX
+> || Example: view 1

@@ -1,0 +1,7 @@
+##########################################################
+# invalid equivalence class - PHONE  not  numbers
+##########################################################
+
+clear
+add John Doe p/abcdefgh e/johnd@gmail.com a/John street, block 123, #01-01
+exit
