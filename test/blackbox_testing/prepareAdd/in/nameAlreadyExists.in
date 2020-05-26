@@ -1,0 +1,12 @@
+##########################################################
+# invalid equivalence class - Name already exists
+##########################################################
+
+clear
+
+# DEPENDENCY
+add John Doe p/98765432 e/johnd@gmail.com a/John street, block 123, #01-01
+# END OF DEPENDENCY
+
+add John Doe p/98765432 e/johnd@gmail.com a/John street, block 123, #01-01
+exit
