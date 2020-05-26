@@ -1,0 +1,27 @@
+|| ===================================================
+|| ===================================================
+|| Welcome to your Address Book!
+|| AddressBook Level 2 - Version 1.0
+|| Launch command format: java seedu.addressbook.Main [STORAGE_FILE_PATH]
+|| Using storage file : addressbook.txt
+|| ===================================================
+|| Enter command: || [Command entered:clear]
+|| Address book has been cleared!
+|| ===================================================
+|| Enter command: || [Command entered:add John Doe p/98765432 e/johnd@gmail.com a/John street, block 123, #01-01]
+|| New person added: John Doe Phone: 98765432 Email: johnd@gmail.com Address: John street, block 123, #01-01 Tags: 
+|| ===================================================
+|| Enter command: || [Command entered:list]
+|| 	1. John Doe Phone: 98765432 Email: johnd@gmail.com Address: John street, block 123, #01-01 Tags: 
+|| 
+|| 1 persons listed!
+|| ===================================================
+|| Enter command: || [Command entered:delete 1]
+|| Deleted Person: John Doe Phone: 98765432 Email: johnd@gmail.com Address: John street, block 123, #01-01 Tags: 
+|| ===================================================
+|| Enter command: || [Command entered:exit]
+|| Exiting Address Book as requested ...
+|| ===================================================
+|| Good bye!
+|| ===================================================
+|| ===================================================
